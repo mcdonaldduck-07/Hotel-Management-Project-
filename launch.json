@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launcher",
+            "request": "launch",
+            "mainClass": "hotel.Launcher",
+            "projectName": "OSDL_ff0e7256"
+        },
+        {
+            "type": "java",
+            "name": "Launcher",
+            "request": "launch",
+            "mainClass": "hotel.Launcher",
+            "projectName": "hotel-management"
+        },
+        {
+            "type": "java",
+            "name": "Run Hotel App",
+            "request": "launch",
+            "mainClass": "hotel.HotelApp",
+            "vmArgs": "--module-path javafx-sdk-23.0.2\\lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path javafx-sdk-23.0.2\\lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
